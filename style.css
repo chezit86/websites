@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding:10px;
+}
+
+body{
+    background-color:rgb(143, 12, 84);
+    background-image:none;
+    font-family:arial ;
+    text-align:center;
+
+}
+
+#navbar{
+    background-color:rgb(247, 211, 10);
+    display:flex;
+    justify-content:space-evenly;
+}
+
+#navbar a {
+    color:white;
+    font-family:arial;
+    font-size:20px;
+    text-decoration:none;
+}
+#navbar a:hover{
+    color:blue;
+}
+
+img {
+    max-width:50%;
+}
